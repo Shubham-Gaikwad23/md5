@@ -4,6 +4,7 @@
 
 ## Overview
 ![Overview](https://github.com/Shubham-Gaikwad23/md5/blob/master/300px-MD5_algorithm.svg.png)
+Figure 1. One MD5 operation. MD5 consists of 64 of these operations, grouped in four rounds of 16 operations. $F$ is a nonlinear function; one function is used in each round. Mi denotes a 32-bit block of the message input, and Ki denotes a 32-bit constant, different for each operation. <<<s denotes a left bit rotation by s places; s varies for each operation. Red square with '+' inscribed denotes addition modulo 2^32.
 
 ## Algorithm
 
