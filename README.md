@@ -2,6 +2,9 @@
 
 "Message digest algorithm 5" is commonly used in cryptography which takes a variable length binary input and produces a fixed length binary output of 128 bits. As an Internet standard [(RFC 1321)](https://www.ietf.org/rfc/rfc1321.txt/), MD5 has been employed in a wide variety of security applications, and is also commonly used to check the integrity of files. An MD5 hash is typically expressed as a 32 digit hexadecimal number.
 
+## Overview
+![Overview](https://en.wikipedia.org/wiki/File:MD5_algorithm.svg)
+
 ## Algorithm
 
 MD5 operates on 32-bit words. Let M be the message to be hashed. The message M is padded so that its length (in bits) is equal to 448 modulo 512, that is, the padded message is 64 bits less than a multiple of 512. The padding consists of a single 1 bit, followed by enough zeros to pad the message to the required length. Padding is always used, even if the length of M happens to equal 448 mod 512. As a result, there is at least one bit of padding, and at most 512 bits of padding. Then the length (in bits) of the message (before padding) is appended as a 64-bit block.
