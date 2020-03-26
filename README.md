@@ -3,7 +3,7 @@
 "Message digest algorithm 5" is commonly used in cryptography which takes a variable length binary input and produces a fixed length binary output of 128 bits. As an Internet standard [(RFC 1321)](https://www.ietf.org/rfc/rfc1321.txt/), MD5 has been employed in a wide variety of security applications, and is also commonly used to check the integrity of files. An MD5 hash is typically expressed as a 32 digit hexadecimal number.
 
 ## Overview
-![Overview](https://en.wikipedia.org/wiki/File:MD5_algorithm.svg)
+![Overview](https://github.com/Shubham-Gaikwad23/md5/blob/master/300px-MD5_algorithm.svg.png)
 
 ## Algorithm
 
