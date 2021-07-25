@@ -45,7 +45,7 @@ uint8_t * md5(uint8_t *init_msg, size_t init_len)
     return digest;
 }
 
-void update(State *original_state, const uint32_t *msg)
+void update(State *original_state, const uint32_t msg[16])
 {
     // shifts specifies the per-round shift amounts
     short shifts[] = {7, 12, 17, 22, 7, 12, 17, 22, 7, 12, 17, 22, 7, 12, 17, 22,
